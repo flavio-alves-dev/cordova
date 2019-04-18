@@ -8,13 +8,13 @@
 
 
         var ref;
-        var url = 'https://www.moveedu.com.br';
+        var url = 'https://missaoexcelencia.prepara.com.br';
         var options = 'location=no,hidden=yes,zoom=no';
 
         function OnReadyApp(){
             
-                    ref =  cordova.InAppBrowser.open(url,'_blank',options);
-
+                    ref =  cordova.InAppBrowser.open(encodeURI(url),'_blank',options);
+                    
                     ref.addEventListener('loadstop',function(){
                     ref.show();
                     document.getElementById('body').style.display = 'none';

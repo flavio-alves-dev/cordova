@@ -24,20 +24,20 @@
         "source": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
     },
     {
-        "merged": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
-        "source": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
-    },
-    {
         "merged": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
         "source": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
     },
     {
-        "merged": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
-        "source": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+        "merged": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
     },
     {
         "merged": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
         "source": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
     },
     {
         "merged": "C:\\projetos\\cordova\\hello\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
