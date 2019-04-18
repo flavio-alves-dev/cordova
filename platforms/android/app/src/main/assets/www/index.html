@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/index.css" rel="stylesheet" />
+        <script type="text/javascript" src="cordova.js"></script> 
+        <script type="text/javascript">
+        document.addEventListener('deviceready', OnReadyApp, false);
+
+
+        var ref;
+        var url = 'https://www.moveedu.com.br';
+        var options = 'location=no,hidden=yes,zoom=no';
+
+        function OnReadyApp(){
+            
+                    ref =  cordova.InAppBrowser.open(url,'_blank',options);
+
+                    ref.addEventListener('loadstop',function(){
+                    ref.show();
+                    document.getElementById('body').style.display = 'none';
+                    })
+
+                    ref.addEventListener('loaderror', function(event) { 
+                        alert('Ocorreu um erro, tente novamente'); 
+                        navigator.app.exitApp();
+                    });
+
+                    ref.addEventListener('exit', function(event){
+                    navigator.app.exitApp();
+                    })
+        }
+        </script>
+    </head>
+    <body id="body" class="loader" style="background-color: black">
+         
+    </body>
+</html>
