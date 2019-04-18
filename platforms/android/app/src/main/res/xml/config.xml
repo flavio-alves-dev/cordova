@@ -11,6 +11,17 @@
         <param name="android-package" value="com.example.MOForceAppClose" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="CDVOrientation">
+        <param name="android-package" value="cordova.plugins.screenorientation.CDVOrientation" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
     <name>Missão Excelência</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

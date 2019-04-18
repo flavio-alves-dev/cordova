@@ -13,11 +13,16 @@
 
         function OnReadyApp(){
             
+                    
                     ref =  cordova.InAppBrowser.open(encodeURI(url),'_blank',options);
+                    StatusBar.backgroundColorByName("red");
                     
                     ref.addEventListener('loadstop',function(){
-                    ref.show();
-                    document.getElementById('body').style.display = 'none';
+                        ref.show();
+                        screen.orientation.lock('portrait');
+                        document.getElementById('body').style.display = 'none';
+                        
+                        
                     })
 
                     ref.addEventListener('loaderror', function(event) { 
@@ -26,7 +31,7 @@
                     });
 
                     ref.addEventListener('exit', function(event){
-                    navigator.app.exitApp();
+                        navigator.app.exitApp();
                     })
         }
         </script>
